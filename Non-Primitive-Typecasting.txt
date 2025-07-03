@@ -17,3 +17,31 @@
 *Purpose-->
 1)Purpose of Upcasting is to achieve Generalization.
 //-------------------------------------------------------------------------------------------------------------------
+*Generalization-->
+Storing the reference of Sub-Class in the Parent type variable is called as 
+Generalization.
+//----------------------------------------------------------------------------------------------------------
+*Real-Life Example of Upcasting and Interview Purpose.
+1)If we create a reference variable of Chrome Driver is created we can only store the reference of 
+   instance of(object) Chrome Driver only.
+2)If we create a reference variable of Firefox Driver is created we can only store the reference of
+   instance of(object) Firefox Driver only.
+   (Similarlly for other browser drivers).
+3)But if we create a variable of web Driver because of Upcasting we can store the reference of instance of
+   either Chrome Driver  OR Firefox Driver OR Mozilla or etc.
+4)This is Known as Generalization.
+//-------------------------------------------------------------------------------------------------------
+*Down Casting--->
+1)It is the process of converting or storying upcasted reference into its respective subclass type 
+  is known as Down Casting.
+**Purpose Of Down Casting-->
+1)If a reference is upcasted,we cannot use the members of sub-class therefore use the members 
+   of subclass we need to perform Down Casting.
+2)Solution of Up-Casting is Down-Casting.
+3)Down-Casting is not done by the compiler implicitely by compiler it has to explicitely done by the 
+  Programmer using Typecast Operator.
+----------------------------------------------------------------------------------------------------------
+*ClassCastException--->
+1)ClassCastException is a abnormal situation which is occur when the object does not have a members 
+   of Sub-Class.
+2)This majorlly happens when the reference is downcasted to the specific Sub-class type without Upcasting.
